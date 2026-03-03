@@ -1,0 +1,312 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Feb 27 12:04:22 2026
+# Process ID         : 25164
+# Current directory  : /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work
+# Command line       : xsim -mode tcl -source {xsim.dir/work.wb_top_tb/xsim_script.tcl}
+# Log file           : /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work/xsim.log
+# Journal file       : /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work/xsim.jou
+# Running On         : lap
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+# CPU Frequency      : 3900.145 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8123 MB
+# Swap memory        : 8000 MB
+# Total Virtual      : 16124 MB
+# Available Virtual  : 11573 MB
+#-----------------------------------------------------------
+source xsim.dir/work.wb_top_tb/xsim_script.tcl
+# xsim {work.wb_top_tb} -autoloadwcfg -runall
+Time resolution is 1 ps
+open_wave_config /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work/work.wb_top_tb.wcfg
+run -all
+[55000 ns] M0 WR  addr=0x0fff  data=0x0000abcd  (sending command)
+[95000 ns]   BUS S0(MEM) WR  adr=0x0fff  wdat=0x0000abcd  sel=1111
+[105000 ns]   BUS S0(MEM) WR  adr=0x0fff  wdat=0x0000abcd  sel=1111
+[105000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[115000 ns] M0 WR  addr=0x0fff  ACK received
+[135000 ns] M0 WR  addr=0x1000  data=0x0000fafa  (sending command)
+[175000 ns]   BUS S0(MEM) WR  adr=0x1000  wdat=0x0000fafa  sel=1111
+[185000 ns]   BUS S0(MEM) WR  adr=0x1000  wdat=0x0000fafa  sel=1111
+[185000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[195000 ns] M0 WR  addr=0x1000  ACK received
+[215000 ns] M0 WR  addr=0x0001  data=0x0000aaaa  (sending command)
+[255000 ns]   BUS S0(MEM) WR  adr=0x0001  wdat=0x0000aaaa  sel=1111
+[265000 ns]   BUS S0(MEM) WR  adr=0x0001  wdat=0x0000aaaa  sel=1111
+[265000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[275000 ns] M0 WR  addr=0x0001  ACK received
+[295000 ns] M0 WR  addr=0x2000  data=0x00000000  (sending command)
+[335000 ns]   BUS S0(MEM) WR  adr=0x2000  wdat=0x00000000  sel=1111
+[345000 ns]   BUS S0(MEM) WR  adr=0x2000  wdat=0x00000000  sel=1111
+[345000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[355000 ns] M0 WR  addr=0x2000  ACK received
+[375000 ns] M0 WR  addr=0x2004  data=0x00000028  (sending command)
+[415000 ns]   BUS S0(MEM) WR  adr=0x2004  wdat=0x00000028  sel=1111
+[425000 ns]   BUS S0(MEM) WR  adr=0x2004  wdat=0x00000028  sel=1111
+[425000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[435000 ns] M0 WR  addr=0x2004  ACK received
+[455000 ns] M0 WR  addr=0x2008  data=0x00000050  (sending command)
+[495000 ns]   BUS S0(MEM) WR  adr=0x2008  wdat=0x00000050  sel=1111
+[505000 ns]   BUS S0(MEM) WR  adr=0x2008  wdat=0x00000050  sel=1111
+[505000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[515000 ns] M0 WR  addr=0x2008  ACK received
+[535000 ns] M0 WR  addr=0x200c  data=0x00000078  (sending command)
+[575000 ns]   BUS S0(MEM) WR  adr=0x200c  wdat=0x00000078  sel=1111
+[585000 ns]   BUS S0(MEM) WR  adr=0x200c  wdat=0x00000078  sel=1111
+[585000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[595000 ns] M0 WR  addr=0x200c  ACK received
+[615000 ns] M0 WR  addr=0x2010  data=0x000000a0  (sending command)
+[655000 ns]   BUS S0(MEM) WR  adr=0x2010  wdat=0x000000a0  sel=1111
+[665000 ns]   BUS S0(MEM) WR  adr=0x2010  wdat=0x000000a0  sel=1111
+[665000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[675000 ns] M0 WR  addr=0x2010  ACK received
+[695000 ns] M0 WR  addr=0x2014  data=0x000000c8  (sending command)
+[735000 ns]   BUS S0(MEM) WR  adr=0x2014  wdat=0x000000c8  sel=1111
+[745000 ns]   BUS S0(MEM) WR  adr=0x2014  wdat=0x000000c8  sel=1111
+[745000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[755000 ns] M0 WR  addr=0x2014  ACK received
+[775000 ns] M0 WR  addr=0x2018  data=0x000000f0  (sending command)
+[815000 ns]   BUS S0(MEM) WR  adr=0x2018  wdat=0x000000f0  sel=1111
+[825000 ns]   BUS S0(MEM) WR  adr=0x2018  wdat=0x000000f0  sel=1111
+[825000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[835000 ns] M0 WR  addr=0x2018  ACK received
+[855000 ns] M0 WR  addr=0x201c  data=0x00000118  (sending command)
+[895000 ns]   BUS S0(MEM) WR  adr=0x201c  wdat=0x00000118  sel=1111
+[905000 ns]   BUS S0(MEM) WR  adr=0x201c  wdat=0x00000118  sel=1111
+[905000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[915000 ns] M0 WR  addr=0x201c  ACK received
+[935000 ns] M0 WR  addr=0x2020  data=0x00000140  (sending command)
+[975000 ns]   BUS S0(MEM) WR  adr=0x2020  wdat=0x00000140  sel=1111
+[985000 ns]   BUS S0(MEM) WR  adr=0x2020  wdat=0x00000140  sel=1111
+[985000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[995000 ns] M0 WR  addr=0x2020  ACK received
+[1015000 ns] M0 WR  addr=0x2024  data=0x00000168  (sending command)
+[1055000 ns]   BUS S0(MEM) WR  adr=0x2024  wdat=0x00000168  sel=1111
+[1065000 ns]   BUS S0(MEM) WR  adr=0x2024  wdat=0x00000168  sel=1111
+[1065000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1075000 ns] M0 WR  addr=0x2024  ACK received
+[1095000 ns] M0 WR  addr=0x2028  data=0x00000190  (sending command)
+[1135000 ns]   BUS S0(MEM) WR  adr=0x2028  wdat=0x00000190  sel=1111
+[1145000 ns]   BUS S0(MEM) WR  adr=0x2028  wdat=0x00000190  sel=1111
+[1145000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1155000 ns] M0 WR  addr=0x2028  ACK received
+[1175000 ns] M0 WR  addr=0x202c  data=0x000001b8  (sending command)
+[1215000 ns]   BUS S0(MEM) WR  adr=0x202c  wdat=0x000001b8  sel=1111
+[1225000 ns]   BUS S0(MEM) WR  adr=0x202c  wdat=0x000001b8  sel=1111
+[1225000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1235000 ns] M0 WR  addr=0x202c  ACK received
+[1255000 ns] M0 WR  addr=0x2030  data=0x000001e0  (sending command)
+[1295000 ns]   BUS S0(MEM) WR  adr=0x2030  wdat=0x000001e0  sel=1111
+[1305000 ns]   BUS S0(MEM) WR  adr=0x2030  wdat=0x000001e0  sel=1111
+[1305000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1315000 ns] M0 WR  addr=0x2030  ACK received
+[1335000 ns] M0 WR  addr=0x2034  data=0x00000208  (sending command)
+[1375000 ns]   BUS S0(MEM) WR  adr=0x2034  wdat=0x00000208  sel=1111
+[1385000 ns]   BUS S0(MEM) WR  adr=0x2034  wdat=0x00000208  sel=1111
+[1385000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1395000 ns] M0 WR  addr=0x2034  ACK received
+[1415000 ns] M0 WR  addr=0x2038  data=0x00000230  (sending command)
+[1455000 ns]   BUS S0(MEM) WR  adr=0x2038  wdat=0x00000230  sel=1111
+[1465000 ns]   BUS S0(MEM) WR  adr=0x2038  wdat=0x00000230  sel=1111
+[1465000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1475000 ns] M0 WR  addr=0x2038  ACK received
+[1495000 ns] M0 WR  addr=0x203c  data=0x00000258  (sending command)
+[1535000 ns]   BUS S0(MEM) WR  adr=0x203c  wdat=0x00000258  sel=1111
+[1545000 ns]   BUS S0(MEM) WR  adr=0x203c  wdat=0x00000258  sel=1111
+[1545000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1555000 ns] M0 WR  addr=0x203c  ACK received
+[1575000 ns] M0 WR  addr=0x2040  data=0x00000280  (sending command)
+[1615000 ns]   BUS S0(MEM) WR  adr=0x2040  wdat=0x00000280  sel=1111
+[1625000 ns]   BUS S0(MEM) WR  adr=0x2040  wdat=0x00000280  sel=1111
+[1625000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1635000 ns] M0 WR  addr=0x2040  ACK received
+[1655000 ns] M0 WR  addr=0x2044  data=0x000002a8  (sending command)
+[1695000 ns]   BUS S0(MEM) WR  adr=0x2044  wdat=0x000002a8  sel=1111
+[1705000 ns]   BUS S0(MEM) WR  adr=0x2044  wdat=0x000002a8  sel=1111
+[1705000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1715000 ns] M0 WR  addr=0x2044  ACK received
+[1735000 ns] M0 WR  addr=0x2048  data=0x000002d0  (sending command)
+[1775000 ns]   BUS S0(MEM) WR  adr=0x2048  wdat=0x000002d0  sel=1111
+[1785000 ns]   BUS S0(MEM) WR  adr=0x2048  wdat=0x000002d0  sel=1111
+[1785000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1795000 ns] M0 WR  addr=0x2048  ACK received
+[1815000 ns] M0 WR  addr=0x204c  data=0x000002f8  (sending command)
+[1855000 ns]   BUS S0(MEM) WR  adr=0x204c  wdat=0x000002f8  sel=1111
+[1865000 ns]   BUS S0(MEM) WR  adr=0x204c  wdat=0x000002f8  sel=1111
+[1865000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1875000 ns] M0 WR  addr=0x204c  ACK received
+[1895000 ns] M0 WR  addr=0x2050  data=0x00000320  (sending command)
+[1935000 ns]   BUS S0(MEM) WR  adr=0x2050  wdat=0x00000320  sel=1111
+[1945000 ns]   BUS S0(MEM) WR  adr=0x2050  wdat=0x00000320  sel=1111
+[1945000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[1955000 ns] M0 WR  addr=0x2050  ACK received
+[1975000 ns] M0 WR  addr=0x2054  data=0x00000348  (sending command)
+[2015000 ns]   BUS S0(MEM) WR  adr=0x2054  wdat=0x00000348  sel=1111
+[2025000 ns]   BUS S0(MEM) WR  adr=0x2054  wdat=0x00000348  sel=1111
+[2025000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[2035000 ns] M0 WR  addr=0x2054  ACK received
+[2055000 ns] M0 WR  addr=0x2058  data=0x00000370  (sending command)
+[2095000 ns]   BUS S0(MEM) WR  adr=0x2058  wdat=0x00000370  sel=1111
+[2105000 ns]   BUS S0(MEM) WR  adr=0x2058  wdat=0x00000370  sel=1111
+[2105000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[2115000 ns] M0 WR  addr=0x2058  ACK received
+[2135000 ns] M0 WR  addr=0x205c  data=0x00000398  (sending command)
+[2175000 ns]   BUS S0(MEM) WR  adr=0x205c  wdat=0x00000398  sel=1111
+[2185000 ns]   BUS S0(MEM) WR  adr=0x205c  wdat=0x00000398  sel=1111
+[2185000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[2195000 ns] M0 WR  addr=0x205c  ACK received
+[2215000 ns] M0 WR  addr=0x2060  data=0x000003c0  (sending command)
+[2255000 ns]   BUS S0(MEM) WR  adr=0x2060  wdat=0x000003c0  sel=1111
+[2265000 ns]   BUS S0(MEM) WR  adr=0x2060  wdat=0x000003c0  sel=1111
+[2265000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[2275000 ns] M0 WR  addr=0x2060  ACK received
+[2295000 ns] M0 RD  addr=0x0fff  (sending command)
+[2335000 ns]   BUS S0(MEM) RD  adr=0x0fff  wdat=0x00000000  sel=1111
+[2345000 ns]   BUS S0(MEM) RD  adr=0x0fff  wdat=0x00000000  sel=1111
+[2345000 ns]   BUS S0(MEM) ACK  rdat=0x0000abcd
+[2355000 ns] M0 RD  addr=0x0fff  data=0x0000abcd  ACK received
+[2375000 ns] M0 RD  addr=0x1000  (sending command)
+[2415000 ns]   BUS S0(MEM) RD  adr=0x1000  wdat=0x00000000  sel=1111
+[2425000 ns]   BUS S0(MEM) RD  adr=0x1000  wdat=0x00000000  sel=1111
+[2425000 ns]   BUS S0(MEM) ACK  rdat=0x0000fafa
+[2435000 ns] M0 RD  addr=0x1000  data=0x0000fafa  ACK received
+[2455000 ns] M0 RD  addr=0x0001  (sending command)
+[2495000 ns]   BUS S0(MEM) RD  adr=0x0001  wdat=0x00000000  sel=1111
+[2505000 ns]   BUS S0(MEM) RD  adr=0x0001  wdat=0x00000000  sel=1111
+[2505000 ns]   BUS S0(MEM) ACK  rdat=0x0000aaaa
+[2515000 ns] M0 RD  addr=0x0001  data=0x0000aaaa  ACK received
+[2535000 ns] M0 RD  addr=0x2000  (sending command)
+[2575000 ns]   BUS S0(MEM) RD  adr=0x2000  wdat=0x00000000  sel=1111
+[2585000 ns]   BUS S0(MEM) RD  adr=0x2000  wdat=0x00000000  sel=1111
+[2585000 ns]   BUS S0(MEM) ACK  rdat=0x00000000
+[2595000 ns] M0 RD  addr=0x2000  data=0x00000000  ACK received
+[2615000 ns] M0 RD  addr=0x2004  (sending command)
+[2655000 ns]   BUS S0(MEM) RD  adr=0x2004  wdat=0x00000000  sel=1111
+[2665000 ns]   BUS S0(MEM) RD  adr=0x2004  wdat=0x00000000  sel=1111
+[2665000 ns]   BUS S0(MEM) ACK  rdat=0x00000028
+[2675000 ns] M0 RD  addr=0x2004  data=0x00000028  ACK received
+[2695000 ns] M0 RD  addr=0x2008  (sending command)
+[2735000 ns]   BUS S0(MEM) RD  adr=0x2008  wdat=0x00000000  sel=1111
+[2745000 ns]   BUS S0(MEM) RD  adr=0x2008  wdat=0x00000000  sel=1111
+[2745000 ns]   BUS S0(MEM) ACK  rdat=0x00000050
+[2755000 ns] M0 RD  addr=0x2008  data=0x00000050  ACK received
+[2775000 ns] M0 RD  addr=0x200c  (sending command)
+[2815000 ns]   BUS S0(MEM) RD  adr=0x200c  wdat=0x00000000  sel=1111
+[2825000 ns]   BUS S0(MEM) RD  adr=0x200c  wdat=0x00000000  sel=1111
+[2825000 ns]   BUS S0(MEM) ACK  rdat=0x00000078
+[2835000 ns] M0 RD  addr=0x200c  data=0x00000078  ACK received
+[2855000 ns] M0 RD  addr=0x2010  (sending command)
+[2895000 ns]   BUS S0(MEM) RD  adr=0x2010  wdat=0x00000000  sel=1111
+[2905000 ns]   BUS S0(MEM) RD  adr=0x2010  wdat=0x00000000  sel=1111
+[2905000 ns]   BUS S0(MEM) ACK  rdat=0x000000a0
+[2915000 ns] M0 RD  addr=0x2010  data=0x000000a0  ACK received
+[2935000 ns] M0 RD  addr=0x2014  (sending command)
+[2975000 ns]   BUS S0(MEM) RD  adr=0x2014  wdat=0x00000000  sel=1111
+[2985000 ns]   BUS S0(MEM) RD  adr=0x2014  wdat=0x00000000  sel=1111
+[2985000 ns]   BUS S0(MEM) ACK  rdat=0x000000c8
+[2995000 ns] M0 RD  addr=0x2014  data=0x000000c8  ACK received
+[3015000 ns] M0 RD  addr=0x2018  (sending command)
+[3055000 ns]   BUS S0(MEM) RD  adr=0x2018  wdat=0x00000000  sel=1111
+[3065000 ns]   BUS S0(MEM) RD  adr=0x2018  wdat=0x00000000  sel=1111
+[3065000 ns]   BUS S0(MEM) ACK  rdat=0x000000f0
+[3075000 ns] M0 RD  addr=0x2018  data=0x000000f0  ACK received
+[3095000 ns] M0 RD  addr=0x201c  (sending command)
+[3135000 ns]   BUS S0(MEM) RD  adr=0x201c  wdat=0x00000000  sel=1111
+[3145000 ns]   BUS S0(MEM) RD  adr=0x201c  wdat=0x00000000  sel=1111
+[3145000 ns]   BUS S0(MEM) ACK  rdat=0x00000118
+[3155000 ns] M0 RD  addr=0x201c  data=0x00000118  ACK received
+[3175000 ns] M0 RD  addr=0x2020  (sending command)
+[3215000 ns]   BUS S0(MEM) RD  adr=0x2020  wdat=0x00000000  sel=1111
+[3225000 ns]   BUS S0(MEM) RD  adr=0x2020  wdat=0x00000000  sel=1111
+[3225000 ns]   BUS S0(MEM) ACK  rdat=0x00000140
+[3235000 ns] M0 RD  addr=0x2020  data=0x00000140  ACK received
+[3255000 ns] M0 RD  addr=0x2024  (sending command)
+[3295000 ns]   BUS S0(MEM) RD  adr=0x2024  wdat=0x00000000  sel=1111
+[3305000 ns]   BUS S0(MEM) RD  adr=0x2024  wdat=0x00000000  sel=1111
+[3305000 ns]   BUS S0(MEM) ACK  rdat=0x00000168
+[3315000 ns] M0 RD  addr=0x2024  data=0x00000168  ACK received
+[3335000 ns] M0 RD  addr=0x2028  (sending command)
+[3375000 ns]   BUS S0(MEM) RD  adr=0x2028  wdat=0x00000000  sel=1111
+[3385000 ns]   BUS S0(MEM) RD  adr=0x2028  wdat=0x00000000  sel=1111
+[3385000 ns]   BUS S0(MEM) ACK  rdat=0x00000190
+[3395000 ns] M0 RD  addr=0x2028  data=0x00000190  ACK received
+[3415000 ns] M0 RD  addr=0x202c  (sending command)
+[3455000 ns]   BUS S0(MEM) RD  adr=0x202c  wdat=0x00000000  sel=1111
+[3465000 ns]   BUS S0(MEM) RD  adr=0x202c  wdat=0x00000000  sel=1111
+[3465000 ns]   BUS S0(MEM) ACK  rdat=0x000001b8
+[3475000 ns] M0 RD  addr=0x202c  data=0x000001b8  ACK received
+[3495000 ns] M0 RD  addr=0x2030  (sending command)
+[3535000 ns]   BUS S0(MEM) RD  adr=0x2030  wdat=0x00000000  sel=1111
+[3545000 ns]   BUS S0(MEM) RD  adr=0x2030  wdat=0x00000000  sel=1111
+[3545000 ns]   BUS S0(MEM) ACK  rdat=0x000001e0
+[3555000 ns] M0 RD  addr=0x2030  data=0x000001e0  ACK received
+[3575000 ns] M0 RD  addr=0x2034  (sending command)
+[3615000 ns]   BUS S0(MEM) RD  adr=0x2034  wdat=0x00000000  sel=1111
+[3625000 ns]   BUS S0(MEM) RD  adr=0x2034  wdat=0x00000000  sel=1111
+[3625000 ns]   BUS S0(MEM) ACK  rdat=0x00000208
+[3635000 ns] M0 RD  addr=0x2034  data=0x00000208  ACK received
+[3655000 ns] M0 RD  addr=0x2038  (sending command)
+[3695000 ns]   BUS S0(MEM) RD  adr=0x2038  wdat=0x00000000  sel=1111
+[3705000 ns]   BUS S0(MEM) RD  adr=0x2038  wdat=0x00000000  sel=1111
+[3705000 ns]   BUS S0(MEM) ACK  rdat=0x00000230
+[3715000 ns] M0 RD  addr=0x2038  data=0x00000230  ACK received
+[3735000 ns] M0 RD  addr=0x203c  (sending command)
+[3775000 ns]   BUS S0(MEM) RD  adr=0x203c  wdat=0x00000000  sel=1111
+[3785000 ns]   BUS S0(MEM) RD  adr=0x203c  wdat=0x00000000  sel=1111
+[3785000 ns]   BUS S0(MEM) ACK  rdat=0x00000258
+[3795000 ns] M0 RD  addr=0x203c  data=0x00000258  ACK received
+[3815000 ns] M0 RD  addr=0x2040  (sending command)
+[3855000 ns]   BUS S0(MEM) RD  adr=0x2040  wdat=0x00000000  sel=1111
+[3865000 ns]   BUS S0(MEM) RD  adr=0x2040  wdat=0x00000000  sel=1111
+[3865000 ns]   BUS S0(MEM) ACK  rdat=0x00000280
+[3875000 ns] M0 RD  addr=0x2040  data=0x00000280  ACK received
+[3895000 ns] M0 RD  addr=0x2044  (sending command)
+[3935000 ns]   BUS S0(MEM) RD  adr=0x2044  wdat=0x00000000  sel=1111
+[3945000 ns]   BUS S0(MEM) RD  adr=0x2044  wdat=0x00000000  sel=1111
+[3945000 ns]   BUS S0(MEM) ACK  rdat=0x000002a8
+[3955000 ns] M0 RD  addr=0x2044  data=0x000002a8  ACK received
+[3975000 ns] M0 RD  addr=0x2048  (sending command)
+[4015000 ns]   BUS S0(MEM) RD  adr=0x2048  wdat=0x00000000  sel=1111
+[4025000 ns]   BUS S0(MEM) RD  adr=0x2048  wdat=0x00000000  sel=1111
+[4025000 ns]   BUS S0(MEM) ACK  rdat=0x000002d0
+[4035000 ns] M0 RD  addr=0x2048  data=0x000002d0  ACK received
+[4055000 ns] M0 RD  addr=0x204c  (sending command)
+[4095000 ns]   BUS S0(MEM) RD  adr=0x204c  wdat=0x00000000  sel=1111
+[4105000 ns]   BUS S0(MEM) RD  adr=0x204c  wdat=0x00000000  sel=1111
+[4105000 ns]   BUS S0(MEM) ACK  rdat=0x000002f8
+[4115000 ns] M0 RD  addr=0x204c  data=0x000002f8  ACK received
+[4135000 ns] M0 RD  addr=0x2050  (sending command)
+[4175000 ns]   BUS S0(MEM) RD  adr=0x2050  wdat=0x00000000  sel=1111
+[4185000 ns]   BUS S0(MEM) RD  adr=0x2050  wdat=0x00000000  sel=1111
+[4185000 ns]   BUS S0(MEM) ACK  rdat=0x00000320
+[4195000 ns] M0 RD  addr=0x2050  data=0x00000320  ACK received
+[4215000 ns] M0 RD  addr=0x2054  (sending command)
+[4255000 ns]   BUS S0(MEM) RD  adr=0x2054  wdat=0x00000000  sel=1111
+[4265000 ns]   BUS S0(MEM) RD  adr=0x2054  wdat=0x00000000  sel=1111
+[4265000 ns]   BUS S0(MEM) ACK  rdat=0x00000348
+[4275000 ns] M0 RD  addr=0x2054  data=0x00000348  ACK received
+[4295000 ns] M0 RD  addr=0x2058  (sending command)
+[4335000 ns]   BUS S0(MEM) RD  adr=0x2058  wdat=0x00000000  sel=1111
+[4345000 ns]   BUS S0(MEM) RD  adr=0x2058  wdat=0x00000000  sel=1111
+[4345000 ns]   BUS S0(MEM) ACK  rdat=0x00000370
+[4355000 ns] M0 RD  addr=0x2058  data=0x00000370  ACK received
+[4375000 ns] M0 RD  addr=0x205c  (sending command)
+[4415000 ns]   BUS S0(MEM) RD  adr=0x205c  wdat=0x00000000  sel=1111
+[4425000 ns]   BUS S0(MEM) RD  adr=0x205c  wdat=0x00000000  sel=1111
+[4425000 ns]   BUS S0(MEM) ACK  rdat=0x00000398
+[4435000 ns] M0 RD  addr=0x205c  data=0x00000398  ACK received
+[4455000 ns] M0 RD  addr=0x2060  (sending command)
+[4495000 ns]   BUS S0(MEM) RD  adr=0x2060  wdat=0x00000000  sel=1111
+[4505000 ns]   BUS S0(MEM) RD  adr=0x2060  wdat=0x00000000  sel=1111
+[4505000 ns]   BUS S0(MEM) ACK  rdat=0x000003c0
+[4515000 ns] M0 RD  addr=0x2060  data=0x000003c0  ACK received
+$finish called at time : 5535 ns : File "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/wb_top_tb.sv" Line 72
+exit
+INFO: xsimkernel Simulation Memory Usage: 293236 KB (Peak: 337436 KB), Simulation CPU Usage: 1410 ms
+INFO: [Common 17-206] Exiting xsim at Fri Feb 27 12:04:26 2026...

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="work.wb_master_top_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="std" />
+            <top_module name="wb_master_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,452.516667 us"></ZoomStartTime>
+      <ZoomEndTime time="10,242.516668 us"></ZoomEndTime>
+      <Cursor1Time time="6,250.850000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="53" />
+   <wvobject type="logic" fp_name="/wb_master_top_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/cmd_wdata">
+      <obj_property name="ElementShortName">cmd_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/cmd_we">
+      <obj_property name="ElementShortName">cmd_we</obj_property>
+      <obj_property name="ObjectShortName">cmd_we</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/cmd_valid">
+      <obj_property name="ElementShortName">cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">cmd_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/cmd_ready">
+      <obj_property name="ElementShortName">cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">cmd_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/reg_out">
+      <obj_property name="ElementShortName">reg_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/u_reg/reg_out">
+      <obj_property name="ElementShortName">reg_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/expected_data">
+      <obj_property name="ElementShortName">expected_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider7" type="divider">
+      <obj_property name="label">MASTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/u_m0/cmd_wdata">
+      <obj_property name="ElementShortName">cmd_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_wdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/u_m0/wbm_dat_i">
+      <obj_property name="ElementShortName">wbm_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_dat_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/u_m0/wbm_dat_o">
+      <obj_property name="ElementShortName">wbm_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_dat_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/u_m0/wbm_ack_i">
+      <obj_property name="ElementShortName">wbm_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wbm_ack_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/u_m0/wbm_cyc_o">
+      <obj_property name="ElementShortName">wbm_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_cyc_o</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/u_m0/wbm_stb_o">
+      <obj_property name="ElementShortName">wbm_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_stb_o</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/u_m0/wbm_we_o">
+      <obj_property name="ElementShortName">wbm_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_we_o</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider16" type="divider">
+      <obj_property name="label">SLAVE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/u_reg/wbs_we_i">
+      <obj_property name="ElementShortName">wbs_we_i</obj_property>
+      <obj_property name="ObjectShortName">wbs_we_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/u_reg/wbs_dat_o">
+      <obj_property name="ElementShortName">wbs_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs_dat_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/u_reg/wbs_ack_o">
+      <obj_property name="ElementShortName">wbs_ack_o</obj_property>
+      <obj_property name="ObjectShortName">wbs_ack_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/u_reg/uart_data_valid">
+      <obj_property name="ElementShortName">uart_data_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/ctl_reg_we">
+      <obj_property name="ElementShortName">ctl_reg_we</obj_property>
+      <obj_property name="ObjectShortName">ctl_reg_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/ctl_reg_wdata_u1">
+      <obj_property name="ElementShortName">ctl_reg_wdata_u1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ctl_reg_wdata_u1[18:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/ctl_reg_wmask_u1">
+      <obj_property name="ElementShortName">ctl_reg_wmask_u1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ctl_reg_wmask_u1[18:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/tx_u1">
+      <obj_property name="ElementShortName">tx_u1</obj_property>
+      <obj_property name="ObjectShortName">tx_u1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_data_valid">
+      <obj_property name="ElementShortName">uart_data_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/recv_done_u1">
+      <obj_property name="ElementShortName">recv_done_u1</obj_property>
+      <obj_property name="ObjectShortName">recv_done_u1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_data_u1">
+      <obj_property name="ElementShortName">uart_data_u1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_u1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/baud_rate">
+      <obj_property name="ElementShortName">baud_rate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_rate[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">UART_STATES_RECEIVER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/recv_clk_en">
+      <obj_property name="ElementShortName">recv_clk_en</obj_property>
+      <obj_property name="ObjectShortName">recv_clk_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_recv_i/bitcnt">
+      <obj_property name="ElementShortName">bitcnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bitcnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_recv_i/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/recv_data">
+      <obj_property name="ElementShortName">recv_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/rx">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider32" type="divider">
+      <obj_property name="label">UART_STATES_TNSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/tnsm_clk_en">
+      <obj_property name="ElementShortName">tnsm_clk_en</obj_property>
+      <obj_property name="ObjectShortName">tnsm_clk_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/tnsm_busy">
+      <obj_property name="ElementShortName">tnsm_busy</obj_property>
+      <obj_property name="ObjectShortName">tnsm_busy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/tnsm_data">
+      <obj_property name="ElementShortName">tnsm_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tnsm_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_tnsm_i/bitcnt">
+      <obj_property name="ElementShortName">bitcnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bitcnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_tnsm_i/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_tnsm_i/tx">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider39" type="divider">
+      <obj_property name="label">CLK GEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/clk_gen_i/baud_rate">
+      <obj_property name="ElementShortName">baud_rate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_rate[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/clk_gen_i/active">
+      <obj_property name="ElementShortName">active</obj_property>
+      <obj_property name="ObjectShortName">active</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider47" type="divider">
+      <obj_property name="label">UART_CONFIG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/rand_data">
+      <obj_property name="ElementShortName">rand_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/baud_rate">
+      <obj_property name="ElementShortName">baud_rate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_rate[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_tnsm_i/stop_type_cfg">
+      <obj_property name="ElementShortName">stop_type_cfg</obj_property>
+      <obj_property name="ObjectShortName">stop_type_cfg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_tnsm_i/parity_type_cfg">
+      <obj_property name="ElementShortName">parity_type_cfg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">parity_type_cfg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/wb_master_top_tb/wb_master_top_i/uart_ip_i1/uart_tnsm_i/frame_type_cfg">
+      <obj_property name="ElementShortName">frame_type_cfg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_type_cfg[1:0]</obj_property>
+   </wvobject>
+</wave_config>

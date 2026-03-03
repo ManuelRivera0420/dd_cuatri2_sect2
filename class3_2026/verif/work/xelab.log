@@ -1,0 +1,32 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/2025.2/Vivado/bin/unwrapped/lnx64.o/xelab -debug typical --relax wb_top_tb 
+Multi-threading is on. Using 6 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/wb_top_tb.sv:56]
+WARNING: [VRFC 10-3129] assignment to input 's0_dat_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:251]
+WARNING: [VRFC 10-3129] assignment to input 's0_ack_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:256]
+WARNING: [VRFC 10-3129] assignment to input 's0_err_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:257]
+WARNING: [VRFC 10-3129] assignment to input 's1_dat_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:265]
+WARNING: [VRFC 10-3129] assignment to input 's1_ack_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:270]
+WARNING: [VRFC 10-3129] assignment to input 's1_err_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:271]
+WARNING: [VRFC 10-3129] assignment to input 's2_dat_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:279]
+WARNING: [VRFC 10-3129] assignment to input 's2_ack_i' [/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_interconnect.sv:283]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_reg.sv" Line 16. Module wb_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/rtl/wb_reg.sv" Line 16. Module wb_reg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.std
+Compiling module work.wb_mem_default
+Compiling module work.wb_reg
+Compiling module work.wb_ram_default
+Compiling module work.wb_interconnect_default
+Compiling module work.wb_master
+Compiling module work.wb_top
+Compiling module work.wb_top_tb
+Built simulation snapshot work.wb_top_tb

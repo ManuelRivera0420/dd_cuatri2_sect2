@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/class3_2026_sebasteam/rtl/wb_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/class3_2026_sebasteam/rtl/wb_ram.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/class3_2026_sebasteam/rtl/wb_mem.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/class3_2026_sebasteam/rtl/wb_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/class3_2026_sebasteam/rtl/wb_interconnect.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_interconnect
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/class3_2026_sebasteam/rtl/wb_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class3_2026/class3_2026_sebasteam/verif/wb_top_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_top_tb

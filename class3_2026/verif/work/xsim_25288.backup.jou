@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Feb 27 12:04:30 2026
+# Process ID         : 25288
+# Current directory  : /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work
+# Command line       : xsim -source {xsim.dir/work.wb_top_tb.wdb/xsim_script.tcl}
+# Log file           : /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work/xsim.log
+# Journal file       : /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work/xsim.jou
+# Running On         : lap
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+# CPU Frequency      : 3900.460 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8123 MB
+# Swap memory        : 8000 MB
+# Total Virtual      : 16124 MB
+# Available Virtual  : 12455 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/work.wb_top_tb.wdb/xsim_script.tcl
+open_wave_config /home/manuelrivera/git_repositories/DD_class_projects/class3_2026/verif/work/work.wb_top_tb.wcfg
+close_sim

@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/rtl_uart/defines.svh" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/rtl_uart/uart_clk_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/rtl_uart/uart_edge_detector.sv" into library work
+INFO: [VRFC 10-311] analyzing module edge_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/rtl_uart/uart_tnsm.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tnsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/rtl_uart/uart_recv.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_recv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/rtl_uart/uart_control_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_control_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/rtl_uart/uart_ip.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_ip
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/wb_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/wb_master.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/rtl/wb_master_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_master_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/manuelrivera/git_repositories/DD_class_projects/class2_2026/dv/wb_master_top_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module wb_master_top_tb

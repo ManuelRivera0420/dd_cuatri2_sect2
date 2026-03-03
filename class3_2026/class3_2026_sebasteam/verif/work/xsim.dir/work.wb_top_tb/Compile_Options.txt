@@ -1,0 +1,1 @@
+-debug "typical" --relax "wb_top_tb" 
