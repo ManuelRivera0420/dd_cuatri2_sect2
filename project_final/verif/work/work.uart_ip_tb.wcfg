@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="work.uart_ip_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="uart_ip_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="113.205010001 ms"></ZoomEndTime>
+      <Cursor1Time time="89.793210000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/arst_n">
+      <obj_property name="ElementShortName">arst_n</obj_property>
+      <obj_property name="ObjectShortName">arst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/recv_data">
+      <obj_property name="ElementShortName">recv_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/recv_done">
+      <obj_property name="ElementShortName">recv_done</obj_property>
+      <obj_property name="ObjectShortName">recv_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/mem_wen">
+      <obj_property name="ElementShortName">mem_wen</obj_property>
+      <obj_property name="ObjectShortName">mem_wen</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/mem_wdata">
+      <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/wr_addr">
+      <obj_property name="ElementShortName">wr_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/prog_rdy">
+      <obj_property name="ElementShortName">prog_rdy</obj_property>
+      <obj_property name="ObjectShortName">prog_rdy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/fsm_instruction_loader_i/n_of_instructions">
+      <obj_property name="ElementShortName">n_of_instructions[7:0]</obj_property>
+      <obj_property name="ObjectShortName">n_of_instructions[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider12" type="divider">
+      <obj_property name="label">UART_TNSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/uart_tnsm_i/data">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/uart_tnsm_i/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/uart_tnsm_i/tnsm_done">
+      <obj_property name="ElementShortName">tnsm_done</obj_property>
+      <obj_property name="ObjectShortName">tnsm_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider16" type="divider">
+      <obj_property name="label">UART_RECV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/uart_recv_i/data">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/uart_recv_i/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/uart_recv_i/recv_done">
+      <obj_property name="ElementShortName">recv_done</obj_property>
+      <obj_property name="ObjectShortName">recv_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">FSM_INSTRUCTION_LOADER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/fsm_instruction_loader_i/state_reg">
+      <obj_property name="ElementShortName">state_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/fsm_instruction_loader_i/inst_rdy">
+      <obj_property name="ElementShortName">inst_rdy</obj_property>
+      <obj_property name="ObjectShortName">inst_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">MASTER &amp; SLAVE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/wb_master_i/cmd_addr">
+      <obj_property name="ElementShortName">cmd_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/wb_master_i/cmd_wdata">
+      <obj_property name="ElementShortName">cmd_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/wb_master_i/cmd_we">
+      <obj_property name="ElementShortName">cmd_we</obj_property>
+      <obj_property name="ObjectShortName">cmd_we</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/wb_master_i/cmd_valid">
+      <obj_property name="ElementShortName">cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">cmd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider28" type="divider">
+      <obj_property name="label">SLAVE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/wb_mem_i/wbs_adr_i">
+      <obj_property name="ElementShortName">wbs_adr_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs_adr_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/wb_mem_i/waddr">
+      <obj_property name="ElementShortName">waddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/wb_mem_i/wbs_dat_i">
+      <obj_property name="ElementShortName">wbs_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/wb_mem_i/wbs_we_i">
+      <obj_property name="ElementShortName">wbs_we_i</obj_property>
+      <obj_property name="ObjectShortName">wbs_we_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_ip_tb/uart_ip_i/wb_mem_i/wbs_ack_o">
+      <obj_property name="ElementShortName">wbs_ack_o</obj_property>
+      <obj_property name="ObjectShortName">wbs_ack_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_ip_tb/uart_ip_i/wb_mem_i/mem">
+      <obj_property name="ElementShortName">mem[0:1023][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:1023][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

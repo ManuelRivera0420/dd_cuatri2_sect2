@@ -1,0 +1,7 @@
+Running: xsim.dir/work.uart_ip_tb/xsimk -runall -simmode gui -wdb work.uart_ip_tb.wdb -simrunnum 0 -socket 40275
+Design successfully loaded
+Design Loading Memory Usage: 197840 KB (Peak: 197840 KB)
+Design Loading CPU Usage: 1200 ms
+Simulation completed
+Simulation Memory Usage: 288808 KB (Peak: 337108 KB)
+Simulation CPU Usage: 7390 ms
